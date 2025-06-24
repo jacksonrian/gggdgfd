@@ -120,6 +120,10 @@ body.menu-open {
 }
 
 .top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Alinha à esquerda */
+  padding: 0.5rem 1rem;
 height: 61px; /* Ajuste para uma altura menor */
   line-height: 10px; /* Centraliza o texto na barra */
   position: fixed;
@@ -144,6 +148,11 @@ font-size: 1.0rem; /* Reduz o tamanho da fonte */
   .top-bar {
     font-size: 0.87rem; /* Fonte menor para celulares */
   }
+  .top-bar h1 {
+  font-size: 1.1rem;
+  margin: 0;
+  text-align: left;
+}
 }
 
 
